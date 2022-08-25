@@ -54,11 +54,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TylerV.INTEGRITY\\Desktop\\KAH_NR_NODS_Dump20220316\\ConsoleApp12\\ConsoleApp12.csproj",
+      "projectUniqueName": "C:\\Users\\TylerV.INTEGRITY\\Desktop\\KAH_NR_NODS_Dump20220316\\StarWarsBuddies\\ConsoleApp12.csproj",
       "projectName": "ConsoleApp12",
-      "projectPath": "C:\\Users\\TylerV.INTEGRITY\\Desktop\\KAH_NR_NODS_Dump20220316\\ConsoleApp12\\ConsoleApp12.csproj",
+      "projectPath": "C:\\Users\\TylerV.INTEGRITY\\Desktop\\KAH_NR_NODS_Dump20220316\\StarWarsBuddies\\ConsoleApp12.csproj",
       "packagesPath": "C:\\Users\\TylerV.INTEGRITY\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TylerV.INTEGRITY\\Desktop\\KAH_NR_NODS_Dump20220316\\ConsoleApp12\\obj\\",
+      "outputPath": "C:\\Users\\TylerV.INTEGRITY\\Desktop\\KAH_NR_NODS_Dump20220316\\StarWarsBuddies\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages"

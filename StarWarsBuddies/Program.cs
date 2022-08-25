@@ -10,7 +10,14 @@ class Solution
     public static void Main(string[] args)
     {
 
+
+
         Root r = JsonConvert.DeserializeObject<Root>(GetSomething("https://swapi.dev/api/people").Result);
+
+        while (r.next != null)
+        { 
+
+
         List<string> Buddies = new List<string>();
         Dictionary<string, string> dictBuddies = new Dictionary<string, string>();
 
@@ -25,7 +32,7 @@ class Solution
             }
             else
             {
-             
+
                 dictBuddies.Add(Filmsss, ResultOb.name);
             }
 
@@ -41,6 +48,9 @@ class Solution
 
         }
 
+             r = JsonConvert.DeserializeObject<Root>(GetSomething(r.next).Result);
+
+        }
 
     }
 
@@ -50,7 +60,7 @@ class Solution
 
         HttpClient client = new HttpClient();
         HttpResponseMessage response = await client.GetAsync(url);
-   
+ 
         return  await response.Content.ReadAsStringAsync(); ;
     }
 
@@ -62,7 +72,7 @@ class Solution
 
     public class Root
     {
-        public object next;
+        public string next;
         public List<Result> results;
     }
 
